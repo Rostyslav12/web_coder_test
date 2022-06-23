@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web_coder_test</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Start header -->
+        <header class="header">
+            <div class="header__wrap">
+                <div class="header__logo">
+                    <a href="#!" class="header__logo-link">
+                        <img src="img/header-logo-min.png" alt="Logo" class="header__logo-img">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+
+        <main class="main">
+            <!-- Start join-us -->
+            <section class="join-us">
+                <div class="join-us__wrap">
+                    <div class="join-us__row">
+                        <div class="join-us__img">
+                            <div class="slider">
+                                <div class="slides">
+                                    <input type="radio" name="r" id="r1" checked>
+                                    <input type="radio" name="r" id="r2">
+                                    <input type="radio" name="r" id="r3">
+                                    <input type="radio" name="r" id="r4">
+                        
+                                    <div class="slide s1">
+                                        <img src="img/join_us_img-min.png" alt="Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/join_us_img-min.png" alt="Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/join_us_img-min.png" alt="Image">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/join_us_img-min.png" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="navigation">
+                                    <label for="r1" class="bar"></label>
+                                    <label for="r2" class="bar"></label>
+                                    <label for="r3" class="bar"></label>
+                                    <label for="r4" class="bar"></label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="join-us__info">
+                            <h2 class="join-us__title">Join us now. It's FREE</h2>
+                            <form class="join-us__form">
+                                <div class="join-us__radioBlock-rows">
+                                    <div class="join-us__radioBlock-row">
+                                        <label><span class="join-us__text">I am</span>
+                                            <input type="radio" name="gender" value="small" checked/>
+                                            <span class="join_us_man1"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="gender" value="small" />
+                                            <span class="join_us_man2"></span>
+                                        </label>
+                                    </div>
+                                    <div class="join-us__radioBlock-row">
+                                        <label><span class="join-us__text2">looking for</span>
+                                            <input type="radio" name="look-for-gender" value="small"/>
+                                            <span class="join_us_man1"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="look-for-gender" value="small" checked/>
+                                            <span class="join_us_man2"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <br>
+                                <label><span class="join-us__text">Name</span>
+                                    <input type="text" class="join_us__name" id="myButton" required>
+                                </label>
+
+                                <br>
+                                <label><span class="join-us__text">Age</span>
+                                    <select name="list1" class="join-us__age">
+                                        <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option>
+                                    </select>
+                                    <select name="list1" class="join-us__age">
+                                        <option>January</option><option>February</option><option>March</option><option>April</option><option>May</option><option>June</option><option>July</option><option>August</option><option>September</option><option>October</option><option>November</option><option>December</option>
+                                    </select>
+                                    <select name="list1" class="join-us__age">
+                                        <option>1984</option><option>1985</option><option>1986</option><option>1987</option><option>1988</option><option>1989</option><option>1990</option><option>1991</option><option>1992</option><option>1993</option><option>1994</option><option>1995</option><option>1996</option><option>1997</option><option>1998</option><option>1999</option><option>2000</option><option>2001</option><option>2002</option>
+                                    </select>
+                                </label>
+
+                                <br>
+                                <label><span class="join-us__text">City</span>
+                                    <select name="list1" class="join-us__city">
+                                        <option>London</option><option>Amsterdam</option><option>Barcelona</option><option>Berlin</option><option>Kyiv</option><option>Paris</option><option>Warsaw</option>
+                                    </select>
+                                </label>
+
+                                
+                                <div class="join-us__wrapper">
+                                    <div class="join-us__check">
+                                        <div class="checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo" checked>
+                                            <label for="color-1" class="join-us__text">I’m cool</label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <input class="custom-checkbox" type="checkbox" id="color-2" name="color-2" value="red">
+                                            <label for="color-2" class="join-us__text">Life’s good</label>
+                                        </div>
+                                    </div>
+                                    <div class="join-us__radio">
+                                        <div class="radio">
+                                            <input class="custom-radio" type="radio" id="color-3" name="color" value="indigo">
+                                            <label for="color-3" class="join-us__text">Tee</label>
+                                          </div>
+                                        
+                                          <div class="radio">
+                                            <input class="custom-radio" type="radio" id="color-4" name="color" value="red" checked>
+                                            <label for="color-4" class="join-us__text">Beer</label>
+                                          </div>
+                                    </div>
+                                </div>
+
+                                <button type="submit">Start Now</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End join-us -->
+
+            <!-- Start infoBlock -->
+            <section class="infoBlock">
+                <div class="infoBlock__wrap">
+                    <div class="infoBlock__row">
+                        <div class="infoBlock__code">
+                            <h2 class="title">
+                                Code this block
+                            </h2>
+                            <img src="img/infoBlock__code_img-min.png" alt="Image" class="infoBlock__code_img">
+                            <p class="subtitle">
+                                This text should be changeable. Lorem ipsum text here. Offers great opportunities to everyone looking to meet locals, find romantic dates and make new friends. Our dating site gives you hours of dating fun, together with seemingly endless possibilities to meet new single people from your area, make friends, go on a date and enjoy good company. With thousands of local personals, will make your life a whole lot busier with all that dating. This is a great place to find true friends or devoted partners for long-term relationships or marriage. We </p>
+                        </div>
+
+                        <div class="infoBlock__users-list">
+                            <h2 class="title">
+                                Users List
+                            </h2>
+                            <img src="img/infoBlock__users_list_img-min.png" alt="Image" class="infoBlock__users-list-img">
+                            <img src="img/infoBlock__users_list_img-min.png" alt="Image" class="infoBlock__users-list-img">
+                            <img src="img/infoBlock__users_list_img-min.png" alt="Image" class="infoBlock__users-list-img">
+                            <img src="img/infoBlock__users_list_img-min.png" alt="Image" class="infoBlock__users-list-img">
+                            <img src="img/infoBlock__users_list_img-min.png" alt="Image" class="infoBlock__users-list-img">
+                            
+                            <div class="infoBlock__users-list-wrapper">
+                                <div class="infoBlock__users-list1">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">20%</div>
+                                      </div>
+                                    <div class="infoBlock__users-list-step">
+                                        <div class="step"><span>Step 1</span></div>
+                                        <div class="step"><span>Step 1</span></div>
+                                        <div class="step step-orange"><span>Step 1</span></div>
+                                        <div class="step"><span>Step 1</span></div>
+                                        <div class="step"><span>Step 1</span></div>
+                                    </div>
+                                    <input type="range">
+                                </div>
+                                <div class="infoBlock__users-list2">
+                                    <div class="infoBlock__users-circle procenr37"><span>37%</span></div>
+                                    <div class="rating-area">
+                                        <input type="radio" id="star-5" name="rating" value="5">
+                                        <label for="star-5" title="Оцінка «5»"></label>	
+                                        <input type="radio" id="star-4" name="rating" value="4">
+                                        <label for="star-4" title="Оцінка «4»"></label>    
+                                        <input type="radio" id="star-3" name="rating" value="3">
+                                        <label for="star-3" title="Оцінка «3»"></label>  
+                                        <input type="radio" id="star-2" name="rating" value="2">
+                                        <label for="star-2" title="Оцінка «2»"></label>    
+                                        <input type="radio" id="star-1" name="rating" value="1">
+                                        <label for="star-1" title="Оцінка «1»"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End infoBlock -->
+
+            <!-- Start online-dating -->
+            <section class="online-dating">
+                <div class="online-dating__wrap">
+                    <h2 class="title">How to succeed in online dating</h2>
+                    <div class="online-dating__rows">
+                        <div class="online-dating__row1 row">
+                            <p class="online-dating__text">There is no secret to being successful in online dating - you just need to be yourself. Be active, comment on other members' profiles, send them mails, chat with them and rate their profiles. We provide a wide range of features allowing you to gather as many contacts as you can handle. It is better to rotate photographs of yourself regularly, update the details on your profile frequently, use the instant communicator facility, and log onto the site as much as possible, as well as at different times, to meet as many members as you can. It is most important to be honest, positive and patient in all your site activities.</p>
+                            <p class="online-dating__text2">In the "My Account" area visit the section for photos entitled "My Photos" and select the option "Click to upload photos". You will then </p>
+                        </div>
+
+                        <div class="online-dating__row2 row">
+                            <p class="online-dating__text2">prompted to upload a photo from your computer. Your 'Primary' photo is visible to everyone and should be a 'normal' photo. 'For friends only' photos are visible only to those on your friends list. Your 'Primary' photo is visible to everyone and should be a 'normal' photo. 'For friends only' photos are visible only to those on your friends list.</p>
+                            <p class="online-dating__text">You can also upload photos to your dating profile from your Facebook account. </p>
+                            <p class="online-dating__item"><span>1.</span> Access your dating life even when you’re not browsing <a href="#!" class="online-dating-link">Cupid.com</a>!</p>
+                            <p class="online-dating__item"><span>2.</span>Search for new matches from your browser easily</p> 
+                            <p class="online-dating__item"><span>3.</span>Read and write messages & chat with members live; receive Datecasts, winks and alerts when your</p> 
+                        </div>
+                        <div class="online-dating__row3 row">
+                            <p class="online-dating__item">friends are online or have updated their profile info</p>
+                            <p class="online-dating__item"><span>4.</span>Read and write messages & chat with members live; receive Datecasts, winks and alerts when your friends</p> 
+                            <p class="online-dating__text3">In the "My Account" area visit the section for photos entitled "My Photos" and select the option "Click to upload photos". You will then be prompted to upload a photo from your computer. Your 'Primary' photo is visible to everyone and should be a 'normal' photo. 'For friends only' photos are visible only to those on your friends list.</p>
+                            <a href="#!" class="online-dating__link">Click here to view more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End online-dating -->
+        </main>
+
+        <!-- Start footer -->
+        <footer class="footer">
+            <div class="footer__wrap">
+                <div class="footer__rows">
+                    <div class="footer__logo">
+                        <a href="#!" class="footer__logo-link">
+                            <img src="img/footer__logo-min.png" alt="Logo" class="footer__logo-img">
+                        </a>
+                    </div>
+                    <div class="footer__row">
+                        <address>
+                            VD <span class="footer__web">Web Coder Test Task</span> <br> <span class="footer__year">2013</span>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer -->
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
